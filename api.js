@@ -283,6 +283,4 @@ app.use("/group", groupRoute);
 app.use("/auth", authRoute);
 app.use("/contact", contactRoute);
 
-app.listen(port, () => {
-    console.log("Server Running Live on Port : " + port);
-});
+module.exports = app;
